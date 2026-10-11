@@ -1,0 +1,1 @@
+A síntese de voz usa as vozes já instaladas no dispositivo. Não existem faixas de áudio externas nesta versão; esta pasta está reservada para gravações locais futuras.

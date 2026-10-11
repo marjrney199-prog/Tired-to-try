@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="#0A2342"/>
+  <!-- Academic cap -->
+  <path d="M31 24 64 11l33 13-33 13-33-13Z" fill="#D4AF37" stroke="#F5D775" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M43 29v8c0 7 10 12 21 12s21-5 21-12v-8L64 37 43 29Z" fill="#F5D775"/>
+  <path d="M96 25v17" stroke="#F5D775" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="96" cy="45" r="3" fill="#F5D775"/>
+  <!-- Light bulb -->
+  <path d="M54 51c-7 3-11 9-11 16 0 6 3 10 7 14 2 2 3 5 3 8h22c0-3 1-6 3-8 4-4 7-8 7-14 0-10-8-18-19-18-4 0-8 1-12 2Z" fill="#D4AF37" stroke="#FFF1B8" stroke-width="2"/>
+  <path d="M55 89h18M57 94h14M60 99h8" stroke="#FFF1B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 58v21M53 66l11 8 11-8" stroke="#0A2342" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Open book -->
+  <path d="M18 91c15-5 29-3 46 6 17-9 31-11 46-6v22c-16-5-31-3-46 6-15-9-30-11-46-6V91Z" fill="#FFFFFF" stroke="#D4AF37" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M64 97v22M27 99c9-2 18-1 27 3M101 99c-9-2-18-1-27 3" stroke="#0A2342" stroke-width="2" stroke-linecap="round"/>
+  <path d="M18 91v22M110 91v22" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+</svg>

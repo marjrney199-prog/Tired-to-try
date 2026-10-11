@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102c46">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Learning English">
+  <meta name="description" content="Aprenda inglês do básico ao profissional com lições, verbos, vocabulário e prática interactiva.">
+  <title>Learning English | Escola do Conhecimento</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" data-action="navigate" data-view="home" aria-label="Ir para o início">
+      <img src="./assets/logo.svg" alt="Logótipo da Escola do Conhecimento">
+      <span class="brand-copy"><strong>ESCOLA DO<br>CONHECIMENTO</strong><small>LEARNING ENGLISH</small></span>
+    </button>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Abrir menu">☰</button>
+    <nav class="topnav" aria-label="Navegação principal">
+      <button data-action="navigate" data-view="home" class="nav-item active"><span>⌂</span>Início</button>
+      <button data-action="navigate" data-view="lessons" class="nav-item"><span>▤</span>Lições</button>
+      <button data-action="navigate" data-view="verbs" class="nav-item"><span>V</span>Verbos</button>
+      <button data-action="navigate" data-view="vocabulary" class="nav-item"><span>Ab</span>Vocabulário</button>
+      <button data-action="navigate" data-view="practice" class="nav-item"><span>✓</span>Praticar</button>
+      <button data-action="navigate" data-view="conversation" class="nav-item"><span>↗</span>Conversação</button>
+      <button data-action="navigate" data-view="resources" class="nav-item"><span>◈</span>Recursos</button>
+    </nav>
+    <div class="top-actions">
+      <div class="xp-pill" title="Pontos de experiência"><span class="spark">✦</span><span id="xpCount">0 XP</span></div>
+      <button class="install-button" id="installButton" hidden>Instalar app</button>
+      <button class="avatar-button" data-action="navigate" data-view="profile" aria-label="Progresso e perfil">EA</button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <button data-action="navigate" data-view="home" class="nav-item active"><span>⌂</span><small>Início</small></button>
+    <button data-action="navigate" data-view="lessons" class="nav-item"><span>▤</span><small>Lições</small></button>
+    <button data-action="navigate" data-view="verbs" class="nav-item"><span>V</span><small>Verbos</small></button>
+    <button data-action="navigate" data-view="vocabulary" class="nav-item"><span>Ab</span><small>Palavras</small></button>
+    <button data-action="navigate" data-view="practice" class="nav-item"><span>✓</span><small>Prática</small></button>
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-label">A TUA APRENDIZAGEM</div>
+      <button data-action="navigate" data-view="home" class="side-link active"><span class="side-icon">⌂</span>Início</button>
+      <button data-action="navigate" data-view="lessons" class="side-link"><span class="side-icon">▤</span>Trilha de lições</button>
+      <button data-action="navigate" data-view="verbs" class="side-link"><span class="side-icon">V</span>Dicionário de verbos</button>
+      <button data-action="navigate" data-view="vocabulary" class="side-link"><span class="side-icon">Ab</span>1.000 palavras</button>
+      <button data-action="navigate" data-view="practice" class="side-link"><span class="side-icon">✓</span>Exercícios</button>
+      <button data-action="navigate" data-view="conversation" class="side-link"><span class="side-icon">↗</span>Conversação</button>
+      <button data-action="navigate" data-view="resources" class="side-link"><span class="side-icon">◈</span>Cores e objectos</button>
+      <div class="sidebar-spacer"></div>
+      <div class="sidebar-card">
+        <div class="sidebar-card-icon">✦</div>
+        <strong>Um pouco todos os dias.</strong>
+        <p>10 minutos de prática já contam.</p>
+        <div class="streak-line"><span>🔥</span><b id="streakCount">0 dias</b><span>de sequência</span></div>
+      </div>
+      <button data-action="navigate" data-view="profile" class="side-link side-profile"><span class="side-icon">◎</span>O meu progresso</button>
+      <div class="sidebar-footer">ESCOLA DO CONHECIMENTO<br><span>Edmilson Arlindo</span></div>
+    </aside>
+
+    <main id="mainContent" class="main-content" tabindex="-1">
+      <div class="loading-state"><div class="loader"></div><p>A preparar a tua sala de estudo…</p></div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-layer" id="modalLayer" aria-hidden="true"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
